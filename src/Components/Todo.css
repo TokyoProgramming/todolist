@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+.todo {
+    flex: 0.8;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.todo__body {
+    display: flex;
+    border: none !important;
+    border-radius: 999px;
+    padding: 10px;
+    flex: 0.8;
+    background-color: #437cd6;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.todo__input__form {
+    display: flex;
+}
+.todo__body > form > input {
+    border: none !important;
+    background-color: #437cd6;
+
+}
+.todo__input {
+    display: flex;
+    flex: 1;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+}
+.todo__input__form > input:focus {
+    outline-width: 0;
+}
+
+.todo__input__form > input::placeholder{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: medium;
+}
+.todo__input__form > .MuiSvgIcon-root {
+    margin-right: 5px;
+    padding: 5px;
+}
+.todo__body > form > button {
+    display: none;
+}
+

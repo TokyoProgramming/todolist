@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+.todoList{
+    display: flex;
+    justify-content: center;
+}
+
+.todolist__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: whitesmoke;
+
+}
+
+
+
+.todolist__card > p {
+    /*align-items: center;*/
+
+    font-family: 'Libre Baskerville', serif;
+    margin-left: auto;
+    color: #1c6edc;
+    cursor: pointer;
+    position: absolute;
+}
+.todolist__card > p:hover {
+    font-size: larger;
+}
+.todolist__card > .MuiSvgIcon-root {
+
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1c6edc !important;
+    cursor: pointer;
+}
+
+.todolist__card > .MuiSvgIcon-root:hover{
+    font-size: 35px;
+    color: #194dad !important;
+}
+.doneTodo{
+
+    text-decoration-line: line-through;
+
+
+}
