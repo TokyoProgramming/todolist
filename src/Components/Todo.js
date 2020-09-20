@@ -5,7 +5,19 @@ import TodoList from "./TodoList";
 
 
 function Todo() {
-    const [todos, setTodos] = useState([])
+    // const [todos, setTodos] = useState([])
+    const[todos, setTodos] = useState([
+        {
+            id:1,
+            text: "todo1",
+            isCompleted: false
+        },
+        {
+            id:2,
+            text: "todo2",
+            isCompleted: false
+        },
+    ])
     const [value, setValue] = useState('')
 
     //Create
